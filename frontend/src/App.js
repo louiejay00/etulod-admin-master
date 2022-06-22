@@ -146,7 +146,7 @@ function App() {
   );
 
   useEffect(() => {
-    axios.defaults.baseURL = process.env.BACKEND_URL;
+    // axios.defaults.baseURL = process.env.BACKEND_URL;
   }, []);
   console.log({ auth });
   if (!auth) {
