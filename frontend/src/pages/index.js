@@ -76,7 +76,7 @@ const handleRestore = () =>{
         </Button>
       <Typography paragraph>
         E-tulod ride hailing application that is convinient for people who don't have go
-        to the toda station or wait for other passengers.  E-Tulod will be a mobile application
+        to the toda station or wait for other passengers.  E-Tulod will be a mobile application 
         that will notify tricycle drivers within Bayombong that there is a passenger
         available for pick up (after a passenger inputs the details in the app)
         and they will have the option to pick up the passenger after the request is 
@@ -88,7 +88,7 @@ const handleRestore = () =>{
         because instead of using private vehicles or cars the mobile application utilizes 
         tricycles which is very common for transportation in Bayombong. Also, the mobile 
         application uses SMS text message for notifications and transfer of information 
-        from passenger to Tricycle driver.
+        from passenger to Tricycle driver.  
       </Typography>
     </>
   );
