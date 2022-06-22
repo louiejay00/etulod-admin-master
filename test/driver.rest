@@ -1,0 +1,49 @@
+sPOST http://localhost:5000/driver
+Content-Type: application/json
+
+{
+      "drivername": "Driver 3",
+      "driveraddress": "Driver 3 Address Drive",
+      "platenumber": "S-3333",
+      "drivercpnum": "0893333333"
+}
+
+###
+PATCH http://localhost:5000/driver/61a24e316bbcf92db46c23f0
+Content-Type: application/json
+
+{
+      "ordernumber": 2
+}
+
+###
+GET http://localhost:5000/driver
+
+###
+DELETE http://localhost:5000/driver
+
+###
+DELETE http://localhost:5000/driver/61a24e466bbcf92db46c23f3
+
+###
+GET http://localhost:5000/driver/sorted/desc
+
+###
+POST http://localhost:5000/driver/populate
+Content-Type: application/json
+
+{
+      "number" : 4
+}
+
+
+###
+POST http://localhost:5000/driver
+Content-Type: application/json
+
+{
+      "drivername": "Driver 5",
+      "driveraddress": "Driver 5 Address Drive",
+      "platenumber": "S-45543",
+      "drivercpnum": "+639353354304"
+}

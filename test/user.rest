@@ -1,0 +1,40 @@
+
+GET http://localhost:5000/user/
+
+###
+POST http://localhost:5000/user
+Content-Type: application/json
+
+{
+    "username": "hello", 
+    "name": "world", 
+    "address": "Bayombong"
+}
+###
+DELETE http://localhost:5000/user/localhost:5000/myself
+
+###
+GET http://localhost:5000/user
+
+###
+PATCH http://localhost:5000/user/6175185e566fc4141f79232b
+Content-Type: application/json
+
+{
+    "username": "hello_worl22@gmail.com", 
+     "name": "haha",
+  "address": "NY"
+}
+
+
+
+###
+POST http://localhost:5000/driver
+Content-Type: application/json
+
+{
+    "drivername": "preet", 
+    "driveraddress": "world", 
+    "platenumber": "solano",
+    "drivercpnum":"34535"
+}

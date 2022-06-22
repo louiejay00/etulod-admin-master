@@ -1,0 +1,27 @@
+
+POST http://localhost:3000/process
+Content-Type: application/json
+
+{
+    "destination":"La Torre", 
+    "location": "Solano", 
+    
+}
+###
+POST http://localhost:5000/queue/booking
+Content-Type: application/json
+
+{
+    ""
+}
+
+###
+POST http://localhost:5000/admin/signup
+Content-Type: application/json
+
+{
+    "name": "Manpreet Singh",
+    "email": "admin@yahoo.com",
+    "password": "Admin31#",
+    "dateOfBirth": "09-19-1999"
+}
